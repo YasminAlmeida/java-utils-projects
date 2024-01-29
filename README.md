@@ -6,9 +6,20 @@
 <h5>1. Loteria</h5>
 <p>Código para simulação de sistema de loteria.</p>
 
+## Como rodar
+* Clone o repositorio 
+* Verifique se está sendo utilizado Java 17
+* Você pode realizar o build e acessar o pacote `november13`dentro do src
+
 <h5>2. Refatoração de Classes e Especializações para Cada Cargo</h5>
 <p>Refatoração de classes existentes e introdução de especializações para cada cargo. O objetivo é melhorar a estrutura do código e torná-lo mais modular.
 </p>
+
+## Como rodar
+* Clone o repositorio 
+* Verifique se está sendo utilizado Java 17
+* Você pode realizar o build e acessar o pacote `november13`dentro do src
+
 Recursos Adicionais:
 - Diagrama de Classes e Relacionamentos
 
