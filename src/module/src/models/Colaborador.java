@@ -1,6 +1,6 @@
 package module.src.models;
 
-import module.src.Interfaces.DescontosInterface;
+import module.src.inaterfaces.DescontosInterface;
 
 import java.util.Date;
 import java.util.Scanner;
