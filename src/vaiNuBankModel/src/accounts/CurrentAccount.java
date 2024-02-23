@@ -44,7 +44,14 @@ public  class CurrentAccount extends BankAccount {
 
     @Override
     public String toString() {
-        return "Current Account [Account Number: " + accountNumber + ", \n Agency: " + agency + ",\n  Account Holder Name: " + accountHolderName
-                + ", \n Account Holder CPF: " + accountHolderCPF + ", \n Balance: " + balance + ", \n Credit Limit: " + creditLimit + "]";
+        StringBuilder sb = new StringBuilder();
+        sb.append("Current Account\n")
+                .append("  [Account Number: ").append(accountNumber).append(",\n")
+                .append("   Agency: ").append(agency).append(",\n")
+                .append("   Account Holder Name: ").append(accountHolderName).append(",\n")
+                .append("   Account Holder CPF: ").append(accountHolderCPF).append(",\n")
+                .append("   Balance: ").append(balance).append(",\n")
+                .append("   Credit Limit: ").append(creditLimit).append("]");
+        return sb.toString();
     }
 }

@@ -1,4 +1,4 @@
-package module.src.Interfaces;
+package module.src.inaterfaces;
 
 public interface DescontosInterface {
 

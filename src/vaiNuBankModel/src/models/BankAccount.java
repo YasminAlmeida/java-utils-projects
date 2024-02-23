@@ -65,7 +65,13 @@ public abstract class BankAccount implements BankingOperations {
 
     @Override
     public String toString() {
-        return "Bank Account \n  [Account Number: " + accountNumber + "\n , Agency: " + agency + ", \n Account Holder Name: " + accountHolderName
-                + "\n , Account Holder CPF: " + accountHolderCPF + ", \n Balance: " + balance + "]";
+        StringBuilder sb = new StringBuilder();
+        sb.append("Bank Account\n")
+                .append("  [Account Number: ").append(accountNumber).append(",\n")
+                .append("   Agency: ").append(agency).append(",\n")
+                .append("   Account Holder Name: ").append(accountHolderName).append(",\n")
+                .append("   Account Holder CPF: ").append(accountHolderCPF).append(",\n")
+                .append("   Balance: ").append(balance).append("]");
+        return sb.toString();
     }
 }
